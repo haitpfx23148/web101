@@ -1,0 +1,58 @@
+@media (max-width: 820px) {
+  /* 3. PHẦN NAVBAR HIỂN THỊ TRỂN MÁY TÍNH BẢNG */
+  .navbar-tablet {
+    display: none;
+  }
+  .navbar-tablet-1 a {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* 5. PHẦN "THÔNG TIN NGHỀ NGHIỆP" HIỂN THỊ TRỂN MÁY TÍNH BẢNG */
+  .ttnn-tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+  .ttnn-tablet-1 {
+    width: auto !important;
+  }
+  .ttnn-tablet-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem !important;
+  }
+
+  /* 6. PHẦN "CHỨNG NHẬN, GIẢI THƯỞNG" HIỂN THỊ TRỂN MÁY TÍNH BẢNG */
+  .cngt-tablet {
+    flex-direction: column;
+  }
+  .cngt-tablet-1 {
+    width: 100% !important;
+  }
+
+  /* 7. DỰ ÁN */
+  .dn-tablet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .dn-tablet-1 {
+    width: auto !important;
+  }
+
+  .the-fix-1 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr;
+  }
+
+  .the-fix-item {
+    grid-column: 2/3;
+  }
+
+  .custom-pd-1-tablet {
+    margin-left: -0.8rem !important;
+  }
+}

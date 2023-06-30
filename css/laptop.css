@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@300&family=Open+Sans:wght@300&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "OpenSans", sans-serif;
+}
+
+p {
+  line-height: 1.6 !important;
+}
+
+/* BANNER */
+header {
+  height: 70vh;
+}
+
+.bg-image {
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(banner.jpg);
+  background-size: cover;
+}
+
+/* NAVBAR */
+
+/* THÔNG TIN CÁ NHÂN */
+.custom-bg1 {
+  background-color: #f7f7f7;
+}
+
+.custom-bg2 {
+  background-color: #f1f3f5;
+}
+
+/* THÔNG TIN NGHỀ NGHIỆP */
+/* SỞ THÍCH */
+.custom-border {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  position: relative;
+}
+
+.text-below {
+  font-size: 14px;
+  color: #6c757d;
+
+  position: absolute;
+  bottom: -3.5rem; /* Điều chỉnh khoảng cách từ biểu tượng */
+  left: -1.5rem;
+  width: 4.5rem;
+  text-align: center;
+}
+
+.custom-fs {
+  font-size: 14px;
+}
+
+/* NGÔN NGỮ, KỸ NĂNG */
+.good {
+  display: inline-block;
+  height: 2px;
+  width: 48px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.bad {
+  display: inline-block;
+  height: 2px;
+  width: 48px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+/* CHỨNG NHẬN, GIẢI THƯỞNG */
+.border-dv {
+  border-color: #d6c08d !important;
+}
+.custom-pd {
+  padding-left: 42px;
+}
+
+/* DỰ ÁN */
+.custom-pd-1 {
+  margin-left: 6.5rem;
+  margin-bottom: 2rem;
+}
+
+.the-fix-0 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

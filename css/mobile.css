@@ -1,0 +1,64 @@
+@media (max-width: 576px) {
+  /* 3. PHẦN NAVBAR HIỂN THỊ TRỂN ĐIỆN THOẠI */
+  .navbar-mobile {
+    flex-direction: column !important;
+    align-items: start !important;
+    margin: 1rem 0rem;
+  }
+  .navbar-mobile a {
+    padding: 0rem 0.5rem !important;
+    border: none !important;
+  }
+
+  /* 5. PHẦN "THÔNG TIN NGHỀ NGHIỆP" HIỂN THỊ TRỂN ĐIỆN THOẠI */
+  .ttnn-mobile {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto 3rem 3rem 3rem !important;
+  }
+  .haihai {
+    padding-bottom: 18rem !important;
+  }
+  .haihai-h {
+    padding-bottom: 16rem !important;
+  }
+
+  /* 6. PHẦN "CHỨNG NHẬN, GIẢI THƯỞNG" HIỂN THỊ TRỂN MÁY TÍNH BẢNG */
+  .cngt-mobile {
+    flex-direction: column;
+  }
+  .cngt-mobile-1 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cngt-mobile p {
+    padding-bottom: 36px;
+  }
+  .cngt-mobile-2 {
+    border-left: none !important;
+    padding-left: 12px !important ;
+  }
+  .cngt-mobile-3 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .tatpadding {
+    padding-bottom: 0 !important;
+  }
+
+  /*  */
+  .dn-tablet-2 {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto 3rem auto 3rem !important;
+  }
+  .custom-pd-1-mobile {
+    padding-left: 3.8rem;
+  }
+
+  .the-fix-2 {
+    display: flex !important;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 1.5rem;
+  }
+}
